@@ -6,7 +6,7 @@ categories: tutorials
 ---
 Auto-Scaling is a service offered by Bluemix that enables you to automatically add capacity to your application as needed. It also offers advance settings which makes its service more flexible.
 
-<i>Gradle must be installed in your machine. Refer to sir Pantola's [Gradle Basics Tutorial][grdl-tut].</i>
+<i>Gradle must be installed in your machine. Refer to the [Gradle Basics Tutorial][grdl-tut] given to us.</i>
 
 
 #Deploying the web application#
