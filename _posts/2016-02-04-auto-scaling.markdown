@@ -19,7 +19,7 @@ Auto-Scaling is a service offered by Bluemix that enables you to automatically a
 
 The 256M was chosen because the app normally uses more than 128M and therefore crashes when uploaded using 128M.
 
-##Manual Scaling##
+#Manual Scaling#
 
 1. To manually scale your newly created app, simply click the `DASHBOARD` from the menu.
 2. Select your application.
@@ -27,7 +27,7 @@ The 256M was chosen because the app normally uses more than 128M and therefore c
 
 Adding an `INSTANCE` basically means you're adding a new machine to help your application run better. This is also known as horizontal scaling. Adding `MEMORY QUOTA` on the other hand, means you're only adding capacity per `INSTANCE`. This is known as vertical scaling.
 
-##Binding Auto-Scaling to the Application##
+#Binding Auto-Scaling to the Application#
 
 1. Go to your app through the `DASHBOARD` from the menu.
 2. Select `ADD A SERVICE OR API` and look for the Auto-Scaling service under **DevOps**.
@@ -51,13 +51,13 @@ Adding an `INSTANCE` basically means you're adding a new machine to help your ap
 
 	Most of the fields are self-explanatory except the following:
 
-- `Statistic Window`refers to the time period that the metric is measured.
-- `Breach Duration` indicates how long must the application exceed the upper threshold before adding a new instance.
-- `Cooldown periods` indicate how long the service will wait before it increases/decreases another instance.
+		- `Statistic Window`refers to the time period that the metric is measured.
+		- `Breach Duration` indicates how long must the application exceed the upper threshold before adding a new instance.
+		- `Cooldown periods` indicate how long the service will wait before it increases/decreases another instance.
 
 5. Once you're done, click the `SAVE` button. You now have auto-scaling in your application.
 
-##Testing the Auto-Scaling##
+#Testing the Auto-Scaling#
 
 This part requires many users to access the application in order for it to overload and create another instance.
 
@@ -80,5 +80,7 @@ This part requires many users to access the application in order for it to overl
 7. While waiting, go back to your Bluemix tab and go to your application. Select the Auto-Scaling service and click the `Metric Statistics` tab. Once the test starts observe the data shown in the `Metric Statistics`.
 
 Here you will see how the memory usage increases and suddenly decreases when a new instance is created. If you go to `Overview` now, you will see that the number of instances has increased. From the activty log you'll see the time the instance(s) was/were made and that it's the same time the graph went down from earlier.
+
+#End of Tutorial#
 
 [grdl-tut]: http://pong-pantola.github.io/gradle-basics/
