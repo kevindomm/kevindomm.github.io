@@ -9,7 +9,7 @@ Auto-Scaling is a service offered by Bluemix that enables you to automatically a
 <i>Gradle must be installed in your machine. Refer to sir Pantola's [Gradle Basics Tutorial][grdl-tut].</i>
 
 
-#Deploying your web application#
+#Deploying your the application#
 
 1. Create a folder in the **C:** directory. It can be any name you want, but for this tutorial we'll be using **test**.
 2. Open a terminal and navigate to the newly created folder. Clone the git repository using the command : `https://github.com/kevindomm/Auto-Scaling`.
