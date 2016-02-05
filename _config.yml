@@ -8,7 +8,7 @@
 # Site settings
 title: Auto-Scale Tutorial
 email: kevindomm@kevin.com
-description: > Tutorial for auto-scaling an application.
+description: Tutorial for auto-scaling an application.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://kevindomm.github.io" # the base hostname & protocol for your site
 twitter_username: jekyllrb
