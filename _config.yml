@@ -6,11 +6,11 @@
 # 'jekyll serve'. If you change this file, please restart the server process.
 
 # Site settings
-title: Auto-Scale Tutorial
-email: kevindomm@kevin.com
-description: Tutorial for auto-scaling an application.
+title: 'Auto-Scale Tutorial'
+email: 'kevindomm@kevin.com'
+description: 'Tutorial for auto-scaling an application.'
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "http://kevindomm.github.io" # the base hostname & protocol for your site
+url: "http://kevindomm.github.io/" # the base hostname & protocol for your site
 twitter_username: jekyllrb
 github_username:  kevindomm
 
