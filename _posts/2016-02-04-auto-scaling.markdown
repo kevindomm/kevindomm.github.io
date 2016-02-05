@@ -9,7 +9,7 @@ Auto-Scaling is a service offered by Bluemix that enables you to automatically a
 Gradle must be installed in your machine. Refer to sir Pantola's [Gradle Basics Tutorial][grdl-tut].
 
 
-#Deploying your web application#
+##Deploying your web application##
 
 1. Create a folder in the **C:** directory. It can be any name you want, but for this tutorial we'll be using **test**.
 2. Open a terminal and navigate to the newly created folder. Clone the git repository using the command : `https://github.com/kevindomm/Auto-Scaling`.
@@ -19,7 +19,7 @@ Gradle must be installed in your machine. Refer to sir Pantola's [Gradle Basics 
 
 The 256M was chosen because the app normally uses more than 128M and therefore crashes when uploaded using 128M.
 
-#Manual Scaling#
+##Manual Scaling##
 
 1. To manually scale your newly created app, simply click the `DASHBOARD` from the menu.
 2. Select your application.
@@ -27,7 +27,7 @@ The 256M was chosen because the app normally uses more than 128M and therefore c
 
 Adding an `INSTANCE` basically means you're adding a new machine to help your application run better. This is also known as horizontal scaling. Adding `MEMORY QUOTA` on the other hand, means you're only adding capacity per `INSTANCE`. This is known as vertical scaling.
 
-#Binding Auto-Scaling to the Application#
+##Binding Auto-Scaling to the Application##
 
 1. Go to your app through the `DASHBOARD` from the menu.
 2. Select `ADD A SERVICE OR API` and look for the Auto-Scaling service under **DevOps**.
@@ -51,13 +51,13 @@ Adding an `INSTANCE` basically means you're adding a new machine to help your ap
 
 	Most of the fields are self-explanatory except the following:
 
-		- `Statistic Window`refers to the time period that the metric is measured.
-		- `Breach Duration` indicates how long must the application exceed the upper threshold before adding a new instance.
-		- `Cooldown periods` indicate how long the service will wait before it increases/decreases another instance.
+	- `Statistic Window`refers to the time period that the metric is measured.
+	- `Breach Duration` indicates how long must the application exceed the upper threshold before adding a new instance.
+	- `Cooldown periods` indicate how long the service will wait before it increases/decreases another instance.
 
 5. Once you're done, click the `SAVE` button. You now have auto-scaling in your application.
 
-#Testing the Auto-Scaling#
+##Testing the Auto-Scaling##
 
 This part requires many users to access the application in order for it to overload and create another instance.
 
