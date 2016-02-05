@@ -15,7 +15,7 @@ twitter_username: jekyllrb
 github_username:  kevindomm
 
 # Build settings
-markdown: kramdown
+markdown: redcarpet
 
 
 highlighter: rouge

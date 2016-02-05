@@ -6,7 +6,7 @@ categories: tutorials
 ---
 Auto-Scaling is a service offered by Bluemix that enables you to automatically add capacity to your application as needed. It also offers advance settings which makes its service more flexible.
 
-Gradle must be installed in your machine. Refer to sir Pantola's [Gradle Basics Tutorial][grdl-tut].
+<i>Gradle must be installed in your machine. Refer to sir Pantola's [Gradle Basics Tutorial][grdl-tut].</i>
 
 
 ##Deploying your web application##
@@ -36,11 +36,11 @@ Adding an `INSTANCE` basically means you're adding a new machine to help your ap
 
 	For this activity we'll be using the following settings:
 
-	- Minimum Intance Count: 1
-	- Maximum Intance Count: 3
-	- Metric Type: Memory
-	- Scale: Out: 65%, increase: 1
-	- Scale: In: 40%, increase: 1
+		- Minimum Intance Count: 1
+		- Maximum Intance Count: 3
+		- Metric Type: Memory
+		- Scale: Out: 65%, increase: 1
+		- Scale: In: 40%, increase: 1
 
 	Advance Configuration
 
