@@ -81,6 +81,6 @@ This part requires many users to access the application in order for it to overl
 
 Here you will see how the memory usage increases and suddenly decreases when a new instance is created. If you go to `Overview` now, you will see that the number of instances has increased. From the activty log you'll see the time the instance(s) was/were made and that it's the same time the graph went down from earlier.
 
-#End of Tutorial#
+**End of Tutorial**
 
 [grdl-tut]: http://pong-pantola.github.io/gradle-basics/
