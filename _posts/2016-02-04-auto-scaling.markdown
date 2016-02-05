@@ -9,7 +9,7 @@ Auto-Scaling is a service offered by Bluemix that enables you to automatically a
 <i>Gradle must be installed in your machine. Refer to sir Pantola's [Gradle Basics Tutorial][grdl-tut].</i>
 
 
-##Deploying your web application##
+#Deploying your web application#
 
 1. Create a folder in the **C:** directory. It can be any name you want, but for this tutorial we'll be using **test**.
 2. Open a terminal and navigate to the newly created folder. Clone the git repository using the command : `https://github.com/kevindomm/Auto-Scaling`.
@@ -51,9 +51,9 @@ Adding an `INSTANCE` basically means you're adding a new machine to help your ap
 
 	Most of the fields are self-explanatory except the following:
 
-	- `Statistic Window`refers to the time period that the metric is measured.
-	- `Breach Duration` indicates how long must the application exceed the upper threshold before adding a new instance.
-	- `Cooldown periods` indicate how long the service will wait before it increases/decreases another instance.
+- `Statistic Window`refers to the time period that the metric is measured.
+- `Breach Duration` indicates how long must the application exceed the upper threshold before adding a new instance.
+- `Cooldown periods` indicate how long the service will wait before it increases/decreases another instance.
 
 5. Once you're done, click the `SAVE` button. You now have auto-scaling in your application.
 
