@@ -8,12 +8,11 @@
 # Site settings
 title: Auto-Scale Tutorial
 email: kevindomm@kevin.com
-description: > # this means to ignore newlines until "baseurl:"
-  Tutorial for auto-scaling an application..
-baseurl: "http://github.com/kevindomm" # the subpath of your site, e.g. /blog
+description: > Tutorial for auto-scaling an application.
+baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://kevindomm.github.io" # the base hostname & protocol for your site
 twitter_username: jekyllrb
-github_username:  jekyll
+github_username:  kevindomm
 
 # Build settings
 markdown: kramdown
