@@ -10,6 +10,7 @@ Gradle must be installed in your machine. Refer to sir Pantola's [Gradle Basics 
 
 
 #Deploying your web application#
+
 1. Create a folder in the **C:** directory. It can be any name you want, but for this tutorial we'll be using **test**.
 2. Open a terminal and navigate to the newly created folder. Clone the git repository using the command : `https://github.com/kevindomm/Auto-Scaling`.
 3. Once finish, navigate through the directory using the command: `cd autoscaling/autoscaling`.
@@ -19,6 +20,7 @@ Gradle must be installed in your machine. Refer to sir Pantola's [Gradle Basics 
 The 256M was chosen because the app normally uses more than 128M and therefore crashes when uploaded using 128M.
 
 #Manual Scaling#
+
 1. To manually scale your newly created app, simply click the `DASHBOARD` from the menu.
 2. Select your application.
 3. Once you've done this, you will immediately see the `INSTANCES:` and `MEMORY QUOTA:`. These options are used to scale your application.
@@ -26,6 +28,7 @@ The 256M was chosen because the app normally uses more than 128M and therefore c
 Adding an `INSTANCE` basically means you're adding a new machine to help your application run better. This is also known as horizontal scaling. Adding `MEMORY QUOTA` on the other hand, means you're only adding capacity per `INSTANCE`. This is known as vertical scaling.
 
 #Binding Auto-Scaling to the Application#
+
 1. Go to your app through the `DASHBOARD` from the menu.
 2. Select `ADD A SERVICE OR API` and look for the Auto-Scaling service under **DevOps**.
 3. Details of the service will be shown. Simply click the `CREATE` button. You will the have to restage your app after this step.
@@ -55,6 +58,7 @@ Adding an `INSTANCE` basically means you're adding a new machine to help your ap
 5. Once you're done, click the `SAVE` button. You now have auto-scaling in your application.
 
 #Testing the Auto-Scaling#
+
 This part requires many users to access the application in order for it to overload and create another instance.
 
 1. To simulate different users, we will be using a third party service called BlazeMeter. To do this simply go to `CATALOG` on the menu and look for BlazeMeter under **DevOps**.
