@@ -110,8 +110,8 @@ a {
  * Blockquotes
  */
 blockquote {
-    color: #2e2e2e;
-    border-left: 4px solid #202020;
+    color: $grey-color;
+    border-left: 4px solid $grey-color-light;
     padding-left: $spacing-unit / 2;
     font-size: 15px;
 
