@@ -39,7 +39,7 @@ Auto-Scaling is a service offered by Bluemix that enables you to automatically a
 		- Scale: Out: 65%, increase: 1
 		- Scale: In: 40%, increase: 1
 
-	Advance Configuration
+		Advance Configuration
 
 		- Statistic Window: 30
 		- Breach Duration: 60
@@ -47,10 +47,11 @@ Auto-Scaling is a service offered by Bluemix that enables you to automatically a
 		- Cooldown period for scaling in: 300
 
 	Most of the fields are self-explanatory except the following:
-
-		- `Statistic Window`refers to the time period that the metric is measured.
-		- `Breach Duration` indicates how long must the application exceed the upper threshold before adding a new instance.
-		- `Cooldown periods` indicate how long the service will wait before it increases/decreases another instance.
+	<blockquote>
+	- `Statistic Window`refers to the time period that the metric is measured.
+	- `Breach Duration` indicates how long must the application exceed the upper threshold before adding a new instance.
+	- `Cooldown periods` indicate how long the service will wait before it increases/decreases another instance.
+	</blockquote>
 
 5. Once you're done, click the `SAVE` button. You now have auto-scaling in your application.
 
