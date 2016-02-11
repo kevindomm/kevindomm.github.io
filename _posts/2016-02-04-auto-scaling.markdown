@@ -17,7 +17,7 @@ Auto-Scaling is a service offered by Bluemix that enables you to automatically a
 4. The cloned repository currently doesn't have a **build** folder which is required to run the application. To fix this, enter the command: `gradle assemble`. This will create the `build/libs/autoscalingapp.war` file.
 5. Now that the app has been compiled, its time to upload it to Bluemix. To this, we enter the command: `cf push autoscaling-<username> -m 256M -p build/lib/autoscalingapp.war` where `<username>` is your own username.
 
-The 256M was chosen because the app normally uses more than 128M and therefore crashes when uploaded using 128M.
+<blockquote>The 256M was chosen because the app normally uses more than 128M and therefore crashes when uploaded using 128M.</blockquote>
 
 #Manual Scaling#
 
@@ -25,7 +25,7 @@ The 256M was chosen because the app normally uses more than 128M and therefore c
 2. Select your application.
 3. Once you've done this, you will immediately see the `INSTANCES:` and `MEMORY QUOTA:`. These options are used to scale your application.
 
-Adding an `INSTANCE` basically means you're adding a new machine to help your application run better. This is also known as horizontal scaling. Adding `MEMORY QUOTA` on the other hand, means you're only adding capacity per `INSTANCE`. This is known as vertical scaling.
+<blockquote>Adding an `INSTANCE` basically means you're adding a new machine to help your application run better. This is also known as horizontal scaling. Adding `MEMORY QUOTA` on the other hand, means you're only adding capacity per `INSTANCE`. This is known as vertical scaling.</blockquote>
 
 #Binding Auto-Scaling to the Application#
 
