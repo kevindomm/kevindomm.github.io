@@ -50,8 +50,8 @@ Auto-Scaling is a service offered by Bluemix that enables you to automatically a
 
 	Most of the fields are self-explanatory except the following:
 		<blockquote>
-		- `Statistic Window`refers to the time period that the metric is measured.
-		- `Breach Duration` indicates how long must the application exceed the upper threshold before adding a new instance.
+		- `Statistic Window`refers to the time period that the metric is measured.<br>
+		- `Breach Duration` indicates how long must the application exceed the upper threshold before adding a new instance.<br>
 		- `Cooldown periods` indicate how long the service will wait before it increases/decreases another instance.
 		</blockquote>
 
