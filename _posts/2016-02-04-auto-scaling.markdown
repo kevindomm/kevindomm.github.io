@@ -22,7 +22,9 @@ Auto-Scaling is a service offered by Bluemix that enables you to automatically a
 2. Select your application.
 3. Once you've done this, you will immediately see the `INSTANCES:` and `MEMORY QUOTA:`. These options are used to scale your application.
 
-<blockquote>Adding an `INSTANCE` basically means you're adding a new machine to help your application run better. This is also known as horizontal scaling. Adding `MEMORY QUOTA` on the other hand, means you're only adding capacity per `INSTANCE`. This is known as vertical scaling.</blockquote>
+	<blockquote>Adding an `INSTANCE` basically means you're adding a new machine to help your application run better. This is also known as horizontal scaling. Adding `MEMORY QUOTA` on the other hand, means you're only adding capacity per `INSTANCE`. This is known as vertical scaling.</blockquote>
+
+4. For now, we will not change any values because we will be needing the default for the next steps.
 
 #Binding Auto-Scaling to the Application#
 
@@ -77,7 +79,7 @@ This part requires many users to access the application in order for it to overl
 6. After clicking the `Save` button, A play(start) button will appear beside the test name. Click it and launch servers. It will take some time to prepare the servers.
 7. While waiting, go back to your Bluemix tab and go to your application. Select the Auto-Scaling service and click the `Metric Statistics` tab. Once the test starts observe the data shown in the `Metric Statistics`.
 
-Here you will see how the memory usage increases and suddenly decreases when a new instance is created. If you go to `Overview` now, you will see that the number of instances has increased. From the activty log you'll see the time the instance(s) was/were made and that it's the same time the graph went down from earlier.
+<blockquote>Here you will see how the memory usage increases and suddenly decreases when a new instance is created. If you go to `Overview` now, you will see that the number of instances has increased. From the activty log you'll see the time the instance(s) was/were made and that it's the same time the graph went down from earlier.</blockquote>
 
 **End of Tutorial**
 
