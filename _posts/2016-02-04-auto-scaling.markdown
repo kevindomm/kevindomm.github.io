@@ -79,8 +79,6 @@ This part requires many users to access the application in order for it to overl
 6. After clicking the `Save` button, A play(start) button will appear beside the test name. Click it and launch servers. It will take some time to prepare the servers.
 7. While waiting, go back to your Bluemix tab and go to your application. Select the Auto-Scaling service and click the `Metric Statistics` tab. Once the test starts observe the data shown in the `Metric Statistics`.
 
-<blockquote>Here you will see how the memory usage increases and suddenly decreases when a new instance is created. If you go to `Overview` now, you will see that the number of instances has increased. From the activty log you'll see the time the instance(s) was/were made and that it's the same time the graph went down from earlier.</blockquote>
+	<blockquote>Notice how the memory usage gradually increases and suddenly drops when a new instance is created. If you go to `Overview` now, you will see that the number of instances has increased. From the activty log you'll see the time the instance(s) was/were made and that it's the same time the graph went down from earlier.</blockquote>
 
 **End of Tutorial**
-
-[grdl-tut]: http://pong-pantola.github.io/gradle-basics/
