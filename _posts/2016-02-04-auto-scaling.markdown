@@ -11,8 +11,8 @@ Auto-Scaling is a service offered by Bluemix that enables you to automatically a
 1. Create a folder in the **C:** directory. It can be any name you want, but for this tutorial we'll be using **test**.
 2. Open a terminal and navigate to the newly created folder. Clone the git repository using the command : `https://github.com/kevindomm/Auto-Scaling`.
 3. Once finish, navigate through the directory using the command: `cd autoscaling/autoscaling`.
-4. The cloned repository currently doesn't have a **build** folder which is required to run the application. To fix this, enter the command: `gradle assemble`. This will create the `build/libs/autoscalingapp.war` file.
-5. Now that the app has been compiled, its time to upload it to Bluemix. To this, we enter the command: `cf push autoscaling-<username> -m 256M -p build/libs/autoscalingapp.war` where `<username>` is your own username.
+4. The cloned repository currently doesn't have a **build** folder which is where the compiled version of the application is. To fix this, enter the command: `gradle assemble`. This will create the `build/libs/autoscalingapp.war` file.
+5. Now that the app has been compiled, its time to upload it to Bluemix. To do this, we enter the command: `cf push autoscaling-<username> -m 256M -p build/libs/autoscalingapp.war` where `<username>` is your own username.
 
 	<blockquote>The 256M was chosen because the app normally uses more than 128M and therefore crashes when uploaded using 128M.</blockquote>
 
@@ -72,7 +72,7 @@ This part requires many users to access the application in order for the applica
 	
 	For this activity we'll be using the following settings and leave everything else in default:
 
-		- Users: 50
+		- Users: 100
 		- Duration: 8
 		- Uncheck the `SEND EMAIL ON REPORT END`
 
