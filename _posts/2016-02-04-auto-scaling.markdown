@@ -12,7 +12,7 @@ Auto-Scaling is a service offered by Bluemix that enables you to automatically a
 2. Open a terminal and navigate to the newly created folder. Clone the git repository using the command : `https://github.com/kevindomm/Auto-Scaling`.
 3. Once finish, navigate through the directory using the command: `cd autoscaling/autoscaling`.
 4. The cloned repository currently doesn't have a **build** folder which is required to run the application. To fix this, enter the command: `gradle assemble`. This will create the `build/libs/autoscalingapp.war` file.
-5. Now that the app has been compiled, its time to upload it to Bluemix. To this, we enter the command: `cf push autoscaling-<username> -m 256M -p build/lib/autoscalingapp.war` where `<username>` is your own username.
+5. Now that the app has been compiled, its time to upload it to Bluemix. To this, we enter the command: `cf push autoscaling-<username> -m 256M -p build/libs/autoscalingapp.war` where `<username>` is your own username.
 
 	<blockquote>The 256M was chosen because the app normally uses more than 128M and therefore crashes when uploaded using 128M.</blockquote>
 
@@ -24,22 +24,22 @@ Auto-Scaling is a service offered by Bluemix that enables you to automatically a
 
 	<blockquote>Adding an `INSTANCE` basically means you're adding a new machine to help your application run better. This is also known as horizontal scaling. Adding `MEMORY QUOTA` on the other hand, means you're only adding capacity per `INSTANCE`. This is known as vertical scaling.</blockquote>
 
-4. For now, we will not change any values as we will be needing them for the next part.
+4. If changes were made, simply click the `SAVE` button beside. For now, we will not change any values as we will be needing them for the next part.
 
 #Binding Auto-Scaling to the Application#
 
 1. Go to your app through the `DASHBOARD` from the menu.
 2. Select `ADD A SERVICE OR API` and look for the Auto-Scaling service under **DevOps**.
 3. Details of the service will be shown. Simply click the `CREATE` button. You will the have to restage your app after this step.
-4. You will now have to create the Policy Configuration. Do this by clicking on `Auto-Scaling` under `SERVICES`.
+4. You will now have to create the Policy Configuration. Do this by clicking on `Auto-Scaling` under `SERVICES`. Once you're there click the `CREATE AUTO-SCALING POLICY`.
 
 	For this activity we'll be using the following settings:
 
 		- Minimum Intance Count: 1
-		- Maximum Intance Count: 3
+		- Maximum Intance Count: 4
 		- Metric Type: Memory
 		- Scale: Out: 65%, increase: 1
-		- Scale: In: 40%, increase: 1
+		- Scale: In: 40%, deccrease: 1
 
 		Advance Configuration
 
@@ -59,16 +59,16 @@ Auto-Scaling is a service offered by Bluemix that enables you to automatically a
 
 #Testing the Auto-Scaling#
 
-This part requires many users to access the application in order for it to overload and create another instance.
+This part requires many users to access the application in order for the application to overload and create another instance.
 
 1. To simulate different users, we will be using a third party service called BlazeMeter. To do this simply go to `CATALOG` on the menu and look for BlazeMeter under **DevOps**.
 2. Click the `CREATE` button.
 
-	Unlike most services BlazeMeter cannot be bound to any application.
+	<blockquote>Unlike most services BlazeMeter cannot be bound to any application.</blockquote>
 
 3. A link, `OPEN BLAZEMETER DASHBOARD`, will then appear in your screan. Click on it and you'll be redirected to the BlazeMeter website.
 4. Once on the website, click the `Create Tests` found at the top bar and select `URL Test`.
-5. Name the test anything you want and enter your app's URL under the `Enter request URL`.
+5. Name the test to anything you want and enter your app's URL under the `Enter request URL`.
 	
 	For this activity we'll be using the following settings and leave everything else in default:
 
