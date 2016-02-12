@@ -61,7 +61,7 @@ Auto-Scaling is a service offered by Bluemix that enables you to automatically a
 
 This part requires many users to access the application in order for the application to overload and create another instance.
 
-1. To simulate different users, we will be using a third party service called BlazeMeter. To do this simply go to `CATALOG` on the menu and look for BlazeMeter under **DevOps**.
+1. To simulate multiple users, we will be using a third party service called BlazeMeter. To do this simply go to `CATALOG` on the menu and look for BlazeMeter under **DevOps**.
 2. Click the `CREATE` button.
 
 	<blockquote>Unlike most services BlazeMeter cannot be bound to any application.</blockquote>
@@ -72,7 +72,7 @@ This part requires many users to access the application in order for the applica
 	
 	For this activity we'll be using the following settings and leave everything else in default:
 
-		- Users: 100
+		- Users: 50
 		- Duration: 8
 		- Uncheck the `SEND EMAIL ON REPORT END`
 
