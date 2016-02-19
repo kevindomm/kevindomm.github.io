@@ -83,6 +83,6 @@ This part requires many users to access the application in order for the applica
 
 **End of Tutorial**
 
-Download powerpoint presentation [here][presentation].
+**Download powerpoint presentation [here][presentation].**
 
 [presentation]: https://github.com/kevindomm/Auto-Scaling/blob/master/autoscaling/Auto-Scaling.pptx?raw=true
