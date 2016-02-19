@@ -85,4 +85,4 @@ This part requires many users to access the application in order for the applica
 
 Download powerpoint presentation [here][presentation].
 
-[presentation]: https://github.com/kevindomm/Auto-Scaling/blob/master/autoscaling/Auto-Scaling.pptx
+[presentation]: https://github.com/kevindomm/Auto-Scaling/blob/master/autoscaling/Auto-Scaling.pptx?raw=true
