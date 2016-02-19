@@ -82,3 +82,7 @@ This part requires many users to access the application in order for the applica
 	<blockquote>Notice how the memory usage gradually increases and suddenly drops when the new instance was created. If you go to `Overview` now, you will see that the number of instances has increased. From the activty log you'll see the time the instance(s) was/were made and that it's the same time the graph went down from earlier.</blockquote>
 
 **End of Tutorial**
+
+Download powerpoint presentation [here][presentation].
+
+[presentation]: https://github.com/kevindomm/Auto-Scaling/blob/master/autoscaling/Auto-Scaling.pptx
