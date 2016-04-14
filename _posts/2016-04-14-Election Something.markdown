@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Auto-Scaling Tutorial"
+title:  "Presedentiable Ratings Tutorial"
 date:   2016-04-13 20:02:33 +0800
 categories: tutorials
 ---
