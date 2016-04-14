@@ -6,7 +6,7 @@ categories: tutorials
 ---
 Auto-Scaling is a service offered by Bluemix that enables you to automatically add capacity to your application as needed. It also offers advance settings which makes its service more flexible.
 
-#Deploying the web application#
+#Testing Deploying the web application#
 
 1. Create a folder in the **C:** directory. It can be any name you want, but for this tutorial we'll be using **test**.
 2. Open a terminal and navigate to the newly created folder. Clone the git repository using the command : `git clone https://github.com/kevindomm/Auto-Scaling`.
