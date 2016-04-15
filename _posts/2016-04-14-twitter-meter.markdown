@@ -51,7 +51,27 @@ The web application's main purpose is to basically rate a candidate based on Twi
 	> cf push hackathon-RAD -m 512M -p build/libs/myapp.war
 	```
 
+7. Go to the `DASHBOARD` of your Bluemix Account and go click the widget representing `hackathon-RAD`.
 
+8. On the left pane, click the `Overview` link. 
+	
+9. Click the `ADD A SERVICE OR API` link.  You will be redirected to the `Catalog` page. 
+
+10. Look for the `Insights for Twitter` service and click it.
+ 
+11. Place the Application in the `dev` space.   
+
+12. Connect it to the `hackathon-RAD` application. 
+
+13. 1. Click the `CREATE` button.
+
+14. When asked to restage your application, DO NOT CLICK the `RESTAGE` button; cancel it, since you will still add another service. 
+
+15. Similar to steps 7-13, add the Tone Analyzer service.
+
+16. When asked to restage your application, click the `RESTAGE` button. 
+
+17. Run the Application. 
 
 **End of Tutorial**
 
