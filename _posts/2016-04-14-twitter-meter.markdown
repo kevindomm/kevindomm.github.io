@@ -25,7 +25,7 @@ The web application's main purpose is to basically rate a candidate based on Twi
 	> cd TwitterMeter
 	```
 
-3. Clone the github repository located [here](https://github.com/shimshinatti/twitter-meter):
+3. Clone the github repository located **[here](https://github.com/shimshinatti/twitter-meter)**:
 
 	```text
 	> git clone https://github.com/shimshinatti/twitter-meter
