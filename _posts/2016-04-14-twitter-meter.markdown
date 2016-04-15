@@ -25,10 +25,10 @@ The web application's main purpose is to basically rate a candidate based on Twi
 	> cd TwitterMeter
 	```
 
-3. Clone the github repository located [here.](wwww.google.com):
+3. Clone the github repository located [here.](https://github.com/shimshinatti/twitter-meter):
 
 	```text
-	> git clone https://github.com/<username>/<something>.git app
+	> git clone https://github.com/shimshinatti/twitter-meter
 	```
 
 4. Go to the `app` directory.
@@ -48,7 +48,7 @@ The web application's main purpose is to basically rate a candidate based on Twi
 6. Upload the newly created .war file to Bluemix using the command:
 
 	```text
-	> cf push hackathon-RAD -m 512M -p build/libs/myapp.war
+	> cf push hackathon-twitter-rating -m 512M -p build/libs/myapp.war
 	```
 
 7. Go to the `DASHBOARD` of your Bluemix Account and go click the widget representing `hackathon-RAD`.
@@ -65,7 +65,7 @@ The web application's main purpose is to basically rate a candidate based on Twi
 
 13. Click the `CREATE` button.
 
-14. When asked to restage your application, DO NOT CLICK the `RESTAGE` button; cancel it, since you will still add another service. 
+14. When asked to restage your application, DO NOT CLICK the `RESTAGE` button; cancel it, since another service will be added.
 
 15. Similar to steps 7-13, add the Tone Analyzer service.
 
