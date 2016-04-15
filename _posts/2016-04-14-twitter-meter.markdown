@@ -25,7 +25,7 @@ The web application's main purpose is to basically rate a candidate based on Twi
 	> cd TwitterMeter
 	```
 
-3. Clone the github repository located [here.](https://github.com/shimshinatti/twitter-meter):
+3. Clone the github repository located [here](https://github.com/shimshinatti/twitter-meter):
 
 	```text
 	> git clone https://github.com/shimshinatti/twitter-meter
@@ -48,10 +48,10 @@ The web application's main purpose is to basically rate a candidate based on Twi
 7. Upload the newly created .war file to Bluemix using the command:
 
 	```text
-	> cf push hackathon-RAD -m 512M -p build/libs/myapp.war
+	> cf push hackathon-rad -m 512M -p build/libs/myapp.war
 	```
 
-8. Go to the `DASHBOARD` of your Bluemix Account and go click the widget representing `hackathon-RAD`.
+8. Go to the `DASHBOARD` of your Bluemix Account and click the widget representing `hackathon-rad`.
 
 9. On the left pane, click the `Overview` link. 
 	
@@ -61,7 +61,7 @@ The web application's main purpose is to basically rate a candidate based on Twi
  
 12. Place the Application in the `dev` space.   
 
-13. Connect it to the `hackathon-RAD` application. 
+13. Connect it to the `hackathon-rad` application. 
 
 14. Click the `CREATE` button.
 
@@ -77,4 +77,4 @@ The web application's main purpose is to basically rate a candidate based on Twi
 
 **Download powerpoint presentation [here][presentation].**
 
-[presentation]: https://github.com/kevindomm/Auto-Scaling/blob/master/autoscaling/Auto-Scaling.pptx?raw=true
+[presentation]: https://drive.google.com/open?id=1kIrXx_kfiLS1XsChy8P760Gim7DxGs6TQcWHTXvuUIU
