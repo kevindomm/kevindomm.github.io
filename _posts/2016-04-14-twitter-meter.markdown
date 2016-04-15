@@ -32,7 +32,7 @@ The web application's main purpose is to basically rate a candidate based on Twi
 	> cd TwitterMeter
 	```
 
-3. Clone the github repository located [here.](wwww.google.com)
+3. Clone the github repository located [here.](wwww.google.com):
 
 	```text
 	> git clone https://github.com/<username>/<something>.git app
@@ -40,13 +40,17 @@ The web application's main purpose is to basically rate a candidate based on Twi
 
 4. Go to the `app` directory.
 
-5. Compile the app by using Gradle's assemble task
+5. Compile the app by using Gradle's assemble task:
 
 	```text
 	> gradle assemble
 	```
 
-6. 
+6. Upload it to Bluemix using the command:
+
+	```text
+	> cf push hackathon-RAD -m 512M -p build/libs/myapp.war
+	```
 
 >>>>>>> origin/master
 
