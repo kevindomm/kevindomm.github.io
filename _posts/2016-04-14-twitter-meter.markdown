@@ -31,7 +31,7 @@ The web application's main purpose is to basically rate a candidate based on Twi
 	> git clone https://github.com/shimshinatti/twitter-meter
 	```
 
-4. Go to the `app` directory.
+4. Go to the `twitter-meter` directory.
 
 5. Compile the app by using Gradle's assemble task:
 
@@ -45,33 +45,33 @@ The web application's main purpose is to basically rate a candidate based on Twi
 	> cf login -a https://api.ng.bluemix.net -s dev
 	```
 
-6. Upload the newly created .war file to Bluemix using the command:
+7. Upload the newly created .war file to Bluemix using the command:
 
 	```text
-	> cf push hackathon-twitter-rating -m 512M -p build/libs/myapp.war
+	> cf push hackathon-RAD -m 512M -p build/libs/myapp.war
 	```
 
-7. Go to the `DASHBOARD` of your Bluemix Account and go click the widget representing `hackathon-RAD`.
+8. Go to the `DASHBOARD` of your Bluemix Account and go click the widget representing `hackathon-RAD`.
 
-8. On the left pane, click the `Overview` link. 
+9. On the left pane, click the `Overview` link. 
 	
-9. Click the `ADD A SERVICE OR API` link.  You will be redirected to the `Catalog` page. 
+10. Click the `ADD A SERVICE OR API` link.  You will be redirected to the `Catalog` page. 
 
-10. Look for the `Insights for Twitter` service and click it.
+11. Look for the `Insights for Twitter` service and click it.
  
-11. Place the Application in the `dev` space.   
+12. Place the Application in the `dev` space.   
 
-12. Connect it to the `hackathon-RAD` application. 
+13. Connect it to the `hackathon-RAD` application. 
 
-13. Click the `CREATE` button.
+14. Click the `CREATE` button.
 
-14. When asked to restage your application, DO NOT CLICK the `RESTAGE` button; cancel it, since another service will be added.
+15. When asked to restage your application, **DO NOT CLICK** the `RESTAGE` button; cancel it, since another service will be added.
 
-15. Similar to steps 7-13, add the Tone Analyzer service.
+16. Similar to steps 8-14, add the Tone Analyzer service.
 
-16. When asked to restage your application, click the `RESTAGE` button. 
+17. When asked to restage your application, click the `RESTAGE` button. 
 
-17. Run the Application. 
+18. Run the Application. 
 
 **End of Tutorial**
 
