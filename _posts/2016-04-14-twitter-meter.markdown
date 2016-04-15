@@ -16,7 +16,16 @@ The web application's main purpose is to basically rate a candidate based on Twi
 
 **Deployement Instruction**
 
-1. 
+1. Create the directory `TwitterMeter` in the root directory. 
+2. Go to the created directory.
+
+	```text
+	> mkdir TwitterMeter
+	> cd TwitterMeter
+	```
+
+3. 
+
 
 **End of Tutorial**
 
