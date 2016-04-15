@@ -17,6 +17,7 @@ The web application's main purpose is to basically rate a candidate based on Twi
 **Deployement Instruction**
 
 1. Create the directory `TwitterMeter` in the root directory. 
+
 2. Go to the created directory.
 
 	```text
@@ -24,7 +25,21 @@ The web application's main purpose is to basically rate a candidate based on Twi
 	> cd TwitterMeter
 	```
 
-3. 
+3. Clone the github repository located [here.](wwww.google.com)
+
+	```text
+	> git clone https://github.com/<username>/<something>.git app
+	```
+
+4. Go to the `app` directory.
+
+5. Compile the app by using Gradle's assemble task
+
+	```text
+	> gradle assemble
+	```
+
+6. 
 
 
 **End of Tutorial**
