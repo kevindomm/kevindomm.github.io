@@ -39,7 +39,13 @@ The web application's main purpose is to basically rate a candidate based on Twi
 	> gradle assemble
 	```
 
-6. Upload it to Bluemix using the command:
+6. Login to your Bluemix Account.
+	
+	```text
+	> cf login -a https://api.ng.bluemix.net -s dev
+	```
+
+6. Upload the newly created .war file to Bluemix using the command:
 
 	```text
 	> cf push hackathon-RAD -m 512M -p build/libs/myapp.war
