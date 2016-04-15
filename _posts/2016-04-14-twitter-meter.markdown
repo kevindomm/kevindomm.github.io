@@ -15,10 +15,14 @@ The web application's main purpose is to basically rate a candidate based on Twi
 
 **Deployement Instruction**
 
-1. 
+1. Create a folder in the **C:** directory. Name it anything you want.
+2. Open a terminal and navigate to the newly created folder. Clone the git repository using the command : `git clone https://github.com/change-this/sample`.
+3. Once finish, navigate through the directory using the command: `cd change-this/sample`.
+4. To compile the application, enter the command: `gradle assemble`. This will create the `build/libs/myapp.war` file.
+5. Upload it to Bluemix using the command: `cf push hackathon-RAD -m 512M -p build/libs/myapp.war`.
 
 **End of Tutorial**
 
 **Download powerpoint presentation [here][presentation].**
 
-[presentation]: https://github.com/kevindomm/Auto-Scaling/blob/master/autoscaling/Auto-Scaling.pptx?raw=true
+[presentation]: https://docs.google.com/presentation/d/1kIrXx_kfiLS1XsChy8P760Gim7DxGs6TQcWHTXvuUIU/edit#slide=id.g12b0134dac_5_0
