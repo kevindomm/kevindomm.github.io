@@ -63,7 +63,7 @@ The web application's main purpose is to basically rate a candidate based on Twi
 
 12. Connect it to the `hackathon-RAD` application. 
 
-13. 1. Click the `CREATE` button.
+13. Click the `CREATE` button.
 
 14. When asked to restage your application, DO NOT CLICK the `RESTAGE` button; cancel it, since you will still add another service. 
 
