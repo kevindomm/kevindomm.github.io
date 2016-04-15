@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Twitter for Insights and Tone Analyzer"
+title:  "Twitter Meter"
 date:   2016-04-13 20:02:33 +0800
 categories: tutorials
 ---
