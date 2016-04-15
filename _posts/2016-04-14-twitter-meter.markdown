@@ -67,7 +67,7 @@ The web application's main purpose is to basically rate a candidate based on Twi
 
 15. When asked to restage your application, **DO NOT CLICK** the `RESTAGE` button; cancel it, since another service will be added.
 
-16. Similar to steps 8-14, add the Tone Analyzer service.
+16. Similar to steps 8-14, add the `Tone Analyzer` service.
 
 17. When asked to restage your application, click the `RESTAGE` button. 
 
